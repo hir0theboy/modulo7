@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio</title>
+        <link rel="stylesheet" href="./main.css">
+        </head>
+    <body>
+    <h1> Verificacao se A é maior que B</h1>
+    <form class="formulario" onsubmit="validarFormulario(event)">
+        <label for="campoA">Campo A:</label>
+        <input class="campoA" type="number" id="campoA" name="campoA" required placeholder="Escreva um numero">
+        <br>
+        <label for="campoB">Campo B:</label>
+        <input type="number" id="campoB" name="campoB" required placeholder="Escreva um numero">
+        <br>
+        <button class="botao" type="submit">Enviar</button>
+    </form>
+    <p id="mensagem"></p>
+    <p id="erro"></p>
+
+    <script src="main.js"></script>
+    </body>
+    </html>
